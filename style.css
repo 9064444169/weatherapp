@@ -1,0 +1,53 @@
+
+*{
+    font-family: "Rimouski";
+}
+body{
+    background-color: #483b5c;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+.container h1{
+  color: rgb(170, 184, 46);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 50px;;
+}
+.notification{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 40px;
+}
+.temp-value{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.temp-value p{
+    color: #293251;
+    font-size: 50px;
+    cursor: pointer;
+}
+.temp-desc{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.temp-location{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+}
+.weather-icon{
+    text-align: center;
+
+}
